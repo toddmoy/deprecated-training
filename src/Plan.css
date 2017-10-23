@@ -1,0 +1,57 @@
+.plan {
+  display: flex;
+  background-color: var(--lightGrey);
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.plan__content {
+  flex: 1 1 auto;
+  padding: 0 1em;
+  position: relative;
+}
+
+.plan__task {
+  border-radius: 3px;
+  width: 100%;
+  background-color: var(--taskBackground);
+  color: #fff;
+  overflow: hidden;
+  border: solid rgba(255, 255, 255, 0.5) 1px;
+}
+
+.plan__task__label {
+  display: block;
+  padding: 8px;
+  font-size: 0.75em;
+}
+
+.plan__axis {
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 20px;
+}
+
+.plan__week {
+  width: 80px;
+  flex: 1 0 60px;
+  border: solid var(--lightGrey) 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  color: #212121;
+}
+.plan__week:not(:first-of-type) {
+  border-top: 0;
+}
+
+.plan__todayMarker {
+  position: absolute;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: calc(100% + 32px);
+  margin-left: -16px;
+}
