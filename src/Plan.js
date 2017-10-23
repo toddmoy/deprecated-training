@@ -27,7 +27,7 @@ const Axis = props => {
         <div
           key={i}
           className="plan__week"
-          style={{ height: `${weekHeight * 60}px` }}
+          style={{ height: `${weekHeight}px` }}
         >
           <span>
             {Moment(props.startDate)

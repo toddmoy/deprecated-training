@@ -1,5 +1,5 @@
 const planData = {
-  startDate: "20171029",
+  startDate: "20171001",
   phases: [
     { title: "Base Fitness", durationInWeeks: 2 },
     { title: "Strength", durationInWeeks: 2 },

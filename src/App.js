@@ -1,5 +1,6 @@
 import React from "react";
 import Plan from "./Plan";
+import StatCard from "./StatCard";
 import PlanData from "./api";
 import "./App.css";
 

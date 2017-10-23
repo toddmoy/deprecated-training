@@ -1,0 +1,5 @@
+.statCard {
+  background-color: #fff;
+  border: solid var(--lightGrey) 1px;
+  border-radius: 3px;
+}
